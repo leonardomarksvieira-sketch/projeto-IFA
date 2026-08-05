@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão Clara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU DE ACESSIBILIDADE -->
+    <nav class="barra-acessibilidade" aria-label="Controles de Acessibilidade">
+        <button id="btnAumentaTexto" class="botao-controle" title="Aumentar texto">A+</button>
+        <button id="btnDiminuiTexto" class="botao-controle" title="Diminuir texto">A-</button>
+        <button id="btnVoz" class="botao-controle botao-leitura" >🔊</button>
+    </nav>
+
+    <main>
+
+        <!-- 1. INÍCIO -->
+        <section class="banner">
+            <h1>Visão Clara</h1>
+            <p style="margin-bottom: 30px;">TEXTO</p>
+            <a href="#contato-ajuda" class="botao-ajuda">SAIBA MAIS</a>
+        </section>
+
+        <div class="conteudo">
+
+            <div class="modal-fundo">
+
+                <!-- SEÇÃO DE DESTINO DO BOTÃO DE AJUDA -->
+                <section id="contato-ajuda" style="margin-top: 60px; background: #eef;" class="modal-conteudo">
+                    <h2 style="margin-top: 0;">TÍTULO DO CARD BOTÃO AJUDA</h2>
+                    <p>TEXTO CARD BOTÃO AJUDA </p>
+                    <ol>
+                        <li><strong>TOPICO 1</strong></li>
+                        <li><strong>TOPICO 2</strong></li>
+                        <li><strong>TOPICO 3</strong></li>
+                        <li><strong>TOPICO 4</strong></li>
+                    </ol>
+                    <button class="botao-ajuda botao-fechar">BOTÃO PARFA FECHAR</button>
+                </section>
+            </div>
